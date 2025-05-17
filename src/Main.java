@@ -10,13 +10,19 @@ public class Main {
         var totalWeight = boxerOne + boxerTwo;
         var weightDiff = boxerTwo - boxerOne;
         var boxersRemander = boxerTwo % boxerOne;
+        var totalHours = 640;
+        var hoursPerWorker = 8;
+        var workers = totalHours / hoursPerWorker;
+        var moreWorkers = workers + 94;
+        var newTotalHours = moreWorkers * hoursPerWorker;
 
-
+        System.out.println("Всего работников в компании " + workers);
         System.out.println("friend " + friend);
         System.out.println("frog " + frog);
         System.out.println("Общая масса боксеров равна кг " + totalWeight);
         System.out.println("Разница между боксерами равна кг " + weightDiff);
         System.out.println("Остаток от деления " + boxersRemander);
+        System.out.println("Если в компании работает " + moreWorkers + " человек, то всего " + newTotalHours + " часов работы может быть поделено между сотрудниками");
 
         frog = frog * 10;
         friend = friend + 2;
@@ -33,11 +39,11 @@ public class Main {
         friend = friend / 7;
         frog = frog / 3.5;
 
+        System.out.println("frog " + frog);
         System.out.println("friend " + friend);
         System.out.println("dog " + dog);
         System.out.println("cat " + cat);
         System.out.println("paper " + paper);
-        System.out.println("frog " + frog);
 
         frog = frog + 4;
         System.out.println("frog " + frog);
