@@ -9,11 +9,14 @@ public class Main {
         var boxerTwo = 82.7;
         var totalWeight = boxerOne + boxerTwo;
         var weightDiff = boxerTwo - boxerOne;
+        var boxersRemander = boxerTwo % boxerOne;
+
 
         System.out.println("friend " + friend);
         System.out.println("frog " + frog);
         System.out.println("Общая масса боксеров равна кг " + totalWeight);
         System.out.println("Разница между боксерами равна кг " + weightDiff);
+        System.out.println("Остаток от деления " + boxersRemander);
 
         frog = frog * 10;
         friend = friend + 2;
