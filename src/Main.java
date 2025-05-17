@@ -5,9 +5,15 @@ public class Main {
         var paper = 763789;
         var friend = 19;
         var frog = 3.5;
+        var boxerOne = 78.8;
+        var boxerTwo = 82.7;
+        var totalWeight = boxerOne + boxerTwo;
+        var weightDiff = boxerTwo - boxerOne;
 
         System.out.println("friend " + friend);
         System.out.println("frog " + frog);
+        System.out.println("Общая масса боксеров равна кг " + totalWeight);
+        System.out.println("Разница между боксерами равна кг " + weightDiff);
 
         frog = frog * 10;
         friend = friend + 2;
